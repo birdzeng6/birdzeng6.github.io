@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // app level config options
-  // base: '/birdlive/',   // GitHub repo name
+  base: '/',
   lang: 'en-US',
   title: "Bird.Live",
   description: "A VitePress Site",

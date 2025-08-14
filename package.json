@@ -3,25 +3,41 @@
   "version": "1.0.0",
   "description": "bird.live",
   "main": "index.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lint": "eslint . --ext .vue,.js,.ts,.md --max-warnings 0",
+    "lint:fix": "eslint . --ext .vue,.js,.ts,.md --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zeng666666/birdlive.git"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
+  
   "bugs": {
     "url": "https://github.com/Zeng666666/birdlive/issues"
   },
+
   "homepage": "https://github.com/Zeng666666/birdlive#readme",
+
   "devDependencies": {
     "vitepress": "^1.6.4",
-    "vue": "^3.5.18"
+    "vue": "^3.5.18",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "prettier": "^3.0.0"
   }
 }

@@ -1,0 +1,47 @@
+name: VitePress Build Check
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm' # or pnpm / yarn
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      # Add linting
+      - name: Lint code
+        run: npm run lint
+        continue-on-error: true  # Don't fail the build for linting issues
+        
+      # Type checking
+      - name: Type check
+        run: npm run type-check
+        continue-on-error: true
+        
+      - name: Build VitePress site
+        run: npm run docs:build
+        
+      - name: Verify build output
+        run: |
+          if [ ! -d "docs/.vitepress/dist" ]; then
+            echo "❌ Build failed - dist directory not found"
+            exit 1
+          fi
+          if [ ! -f "docs/.vitepress/dist/index.html" ]; then
+            echo "❌ Build failed - index.html not found"
+            exit 1
+          fi
+          echo "✅ Build successful - site generated correctly"

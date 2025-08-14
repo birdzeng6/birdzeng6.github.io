@@ -36,11 +36,11 @@ jobs:
         
       - name: Verify build output
         run: |
-          if [ ! -d ".vitepress/dist" ]; then
+          if [ ! -d "docs/.vitepress/dist" ]; then
             echo "❌ Build failed - dist directory not found"
             exit 1
           fi
-          if [ ! -f ".vitepress/dist/index.html" ]; then
+          if [ ! -f "docs/.vitepress/dist/index.html" ]; then
             echo "❌ Build failed - index.html not found"
             exit 1
           fi

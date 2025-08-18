@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // app level config options
   lang: 'en-US',
-  title: "Bird.Live",
-  description: "A VitePress Site",
+  title: "Bird's Eye View",
+  description: "A unique perspective on technology, culture, and connection",
 
   // theme level config options
   themeConfig: {
@@ -28,6 +28,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Zeng666666/birdlive' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/birdlive/' }
-    ]
+    ],
+
+    footer: {
+      copyright: 'Copyright © 2025-present Bird Zeng'
+    }
   }
 })

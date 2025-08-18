@@ -15,14 +15,17 @@ hero:
       link: /api-examples
 
 features:
+  - icon: ❤️
+    title: From Idea to Reality
+    details: Transforming abstract ideas into tangible projects, making things happen from the ground up.
   - icon: 🌟
     title: Product & Design Leadership
-    details: I build and design innovative products from the ground up, bringing a unique, human-centered perspective to the intersection of business, media, and technology.
-  - icon: ❤️
-    title: Ideas into Reality
-    details: I turn big ideas into reality. Whether it's launching a new social network or organizing major concert tours, I specialize in creating meaningful experiences that connect people.
-  - icon: 💬
+    details: Leadinng the creation of innovative, user-friendly tech and digital products.
+  - icon: 🚀
     title: Pioneering Conversational AI
-    details: I leverage cutting-edge AI to build the next generation of conversational platforms, creating powerful and effective solutions for real-world problems.
+    details: Building the next generation of conversational AI platforms to solve complex problems.
+  - icon: 📸
+    title: The Art of Live Experiences
+    details: Capturing the energy of live music and bringing that spirit to every product I create.
 ---
 

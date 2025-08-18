@@ -137,3 +137,40 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * Change main name, tagline
+ * -------------------------------------------------------------------------- */
+
+:root {
+  .main {
+    .text,
+    .tagline {
+      max-width: 75%;
+    }
+
+    .name {
+      font-size: 6vw;
+      line-height: 1.04;
+      max-width: 75%;
+      padding-bottom: 20px;
+    }
+  }
+
+  @media (min-width:1600px) {
+    .main {
+      .name {
+        font-size: 4.8rem;
+      }
+    }
+  }
+
+  @media (max-width:960px) {
+    .main {
+      .name {
+        font-size: 9vw;
+        max-width: 100%;
+        line-height: 1.2;
+      }
+    }
+  }
+}

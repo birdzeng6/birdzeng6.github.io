@@ -8,11 +8,11 @@ hero:
   tagline: Creating innovative products and unforgettable moments
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Product Examples
+      link: /products
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Live Photos
+      link: /products
 
 features:
   - icon: ❤️

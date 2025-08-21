@@ -12,15 +12,22 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Products', link: '/products/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'OpenCUI',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Markdown Examples', link: '/products/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/products/api-examples' }
+        ]
+      },
+      {
+        text: 'SanHang',
+        items: [
+          { text: 'Markdown Examples', link: '/products/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/products/api-examples' }
         ]
       }
     ],

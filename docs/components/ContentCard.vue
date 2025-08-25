@@ -1,4 +1,4 @@
-<script setup >
+<script setup>
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 
@@ -27,7 +27,10 @@ const contentCard = computed(() => {
         :class="{ reverse: !card.left }"
       >
         <div class="image">
-          <img :src="card.image" :alt="card.title">
+          <img
+            :src="card.image"
+            :alt="card.title"
+          >
         </div>
         <div class="content">
           <h2 class="title">

@@ -12,7 +12,7 @@ hero:
       link: /products
     - theme: alt
       text: Live Photos
-      link: /products
+      link: /photos
 
 features:
   - icon: ❤️
@@ -27,5 +27,23 @@ features:
   - icon: 📸
     title: The Art of Live Experiences
     details: Capturing the energy of live music and bringing that spirit to every product I create.
----
 
+contentCards:
+  - title: Product Manager & Designer
+    details: Leading the design and development of an open frontend framework for conversational AI. We're building a new standard for business-friendly chatbot development.
+    projects: OpenCUI, Oct. 2017 - Present
+    dates: "Dates: "
+    image: images/opecui.png
+    left: false
+  - title: Founder & Product Manager
+    details: Founded and managed a social networking service centered on traditional Chinese vertical typography, developing new ways for people to connect through culture.
+    projects: SanHang (叁行), Since 2015
+    dates: "Dates: "
+    image: images/sanhang.png
+    left: true
+  - title: Photographer & Events Organizer
+    details: Spent over a decade in the live music industry, documenting performances as a photographer and promoting major concert tours across Beijing.
+    projects: Since 2009
+    image: images/music.jpeg
+    left: false
+---

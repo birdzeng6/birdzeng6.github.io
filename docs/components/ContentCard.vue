@@ -37,6 +37,8 @@ const contentCard = computed(() => {
             {{ card.title }}
           </h2>
           <p class="desc">
+            {{ card.projects }}
+            <br><br>
             {{ card.details }}
           </p>
         </div>

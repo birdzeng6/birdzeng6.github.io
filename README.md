@@ -20,6 +20,6 @@ This website highlights my core competencies and unique skills through four key 
 This website was built using [VitePress](https://vitepress.dev/).
 
 ## Contact
-For any inquiries, you can reach me at: lu.zeng@opencui.io.
+For any inquiries, you can reach me at: flyingbird816@gmail.com.
 
 Thank you for visiting!

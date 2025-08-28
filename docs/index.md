@@ -33,7 +33,7 @@ contentCards:
     details: Leading the design and development of an open frontend framework for conversational AI. We're building a new standard for business-friendly chatbot development.
     projects: OpenCUI, Oct. 2017 - Present
     dates: "Dates: "
-    image: images/opecui.png
+    image: images/opencui.png
     left: false
   - title: Founder & Product Manager
     details: Founded and managed a social networking service centered on traditional Chinese vertical typography, developing new ways for people to connect through culture.

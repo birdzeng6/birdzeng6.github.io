@@ -13,8 +13,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Products', link: '/products/' },
-      { text: 'Photos', link: '/photos/' }
+      { text: 'Products', link: '/products', activeMatch: '/products/' },
+      { text: 'Photos', link: '/photos/index', activeMatch: '/photos/' }
     ],
 
     sidebar: {
@@ -40,7 +40,6 @@ export default defineConfig({
 
       // This sidebar gets displayed when a user is on `photos` directory.
       '/photos/': [
-        { text: 'Overview', link: '/photos/index' },
         {
           text: 'J',
           collapsed: false,

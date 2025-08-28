@@ -59,7 +59,7 @@ const contentCard = computed(() => {
     .contentCard-card {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      // align-items: end;
       padding: 4rem 0;
       gap: 4rem;
 
@@ -68,7 +68,7 @@ const contentCard = computed(() => {
       }
 
       .image {
-        width: 45%;
+        width: 65%;
       }
 
       .content {

@@ -26,8 +26,8 @@ const contentCard = computed(() => {
         class="contentCard-card"
         :class="{ reverse: !card.left }"
       >
-        <div class="image">
-          <img
+        <div class="image-container">
+          <img class="image"
             :src="card.image"
             :alt="card.title"
           >
@@ -59,7 +59,7 @@ const contentCard = computed(() => {
     .contentCard-card {
       display: flex;
       flex-direction: row;
-      // align-items: end;
+      align-items: end;
       padding: 4rem 0;
       gap: 4rem;
 
@@ -67,8 +67,23 @@ const contentCard = computed(() => {
         flex-direction: row-reverse;
       }
 
-      .image {
-        width: 65%;
+      .image-container {
+        overflow: hidden;    /* so image won’t spill outside */
+        position: relative;
+        width: 90%;
+        aspect-ratio: 16 / 9;    /* lock the ratio, e.g. 16:9 */
+        background-color: var(--vp-carbon-ads-bg-color);
+        border-radius: 12px;
+        border: 1px solid var(--vp-c-divider);
+        padding: 1rem;
+
+        .image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;   /* scale and crop to fit ratio */
+          display: block;
+          border-radius: 6px;
+        }
       }
 
       .content {
@@ -98,7 +113,7 @@ const contentCard = computed(() => {
   .container-c {
     display: flex;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 24px;
 
     .contentCards {
 
@@ -112,13 +127,14 @@ const contentCard = computed(() => {
           flex-direction: column;
         }
 
-        .image {
+        .image-container {
           width: 100%;
         }
 
         .content {
           width: 100%;
           order: 1;
+          padding: 0 8px;
           
           .title {
             font-size: 1.75rem;

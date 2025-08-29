@@ -44,6 +44,6 @@ contentCards:
   - title: Photographer & Events Organizer
     details: Spent over a decade in the live music industry, documenting performances as a photographer and promoting major concert tours across Beijing.
     projects: Since 2009
-    image: images/music.jpeg
+    image: images/music.png
     left: false
 ---

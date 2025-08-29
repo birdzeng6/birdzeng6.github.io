@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "A Product Manager by Day, A Live Music Photographer by Night"
-  # text: "A Live Music Photographer by Night"
+  name: From code to concert, creating meaningful experiences that bring people together
+  text: A product manager by day, a live music photographer by night
   tagline: Creating innovative products and unforgettable moments
   actions:
     - theme: brand

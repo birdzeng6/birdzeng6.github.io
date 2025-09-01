@@ -129,6 +129,7 @@ const contentCard = computed(() => {
 
         .image-container {
           width: 100%;
+          padding: .6rem;
         }
 
         .content {

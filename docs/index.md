@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: From code to concert, creating meaningful experiences that bring people together
+  name: Creating innovative products and unforgettable moments
   text: A product manager by day, a live music photographer by night
-  tagline: Creating innovative products and unforgettable moments
+  tagline: From code to concert, creating meaningful experiences that bring people together
   actions:
     - theme: brand
       text: Product Examples

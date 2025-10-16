@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // app level config options
   lang: 'en-US',
-  title: "Bird's Eye View",
+  title: "👀 Bird's Eye View",
   description: "A unique perspective on technology, culture, and connection",
   lastUpdated: true,
 

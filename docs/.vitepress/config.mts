@@ -32,7 +32,7 @@ export default defineConfig({
           text: 'SanHang',
           collapsed: false,
           items: [
-            { text: 'Markdown Examples', link: '/products/markdown-examples' },
+            { text: 'Overview', link: '/products/sanhang-overview' },
             { text: 'Runtime API Examples', link: '/products/api-examples' }
           ]
         }

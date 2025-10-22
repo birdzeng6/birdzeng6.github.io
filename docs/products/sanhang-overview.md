@@ -4,7 +4,7 @@ In an age of fleeting posts and disposable comments, SanHang (叁行) offers a s
 
 ::: info Rediscover the Art of Vertical Writing
 
-![images/sanhang.png](../public/images/sanhang.png)
+![images/sanhang.png](/images/sanhang.png)
 
 SanHang is a social networking service designed to emulate traditional Chinese writing and reading.
 

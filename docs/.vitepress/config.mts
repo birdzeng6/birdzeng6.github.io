@@ -32,8 +32,11 @@ export default defineConfig({
           text: 'SanHang',
           collapsed: false,
           items: [
-            { text: 'Overview', link: '/products/sanhang-overview' },
-            { text: 'Runtime API Examples', link: '/products/api-examples' }
+            { text: 'Overview', link: '/products/sanhang/overview' },
+            { text: 'Design', link: '/products/sanhang/design' },
+            { text: 'Impact', link: '/products/sanhang/impact' },
+            { text: 'Next', link: '/products/sanhang/next' },
+            { text: 'Team', link: '/products/sanhang/team' }
           ]
         }
       ],

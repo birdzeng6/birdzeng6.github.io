@@ -71,7 +71,6 @@ const contentCard = computed(() => {
         overflow: hidden;    /* so image won’t spill outside */
         position: relative;
         width: 90%;
-        aspect-ratio: 16 / 9;    /* lock the ratio, e.g. 16:9 */
         background-color: var(--vp-carbon-ads-bg-color);
         border-radius: 12px;
         border: 1px solid var(--vp-c-divider);
@@ -79,7 +78,7 @@ const contentCard = computed(() => {
 
         .image {
           width: 100%;
-          height: 100%;
+          aspect-ratio: 16 / 9;    /* lock the ratio, e.g. 16:9 */
           object-fit: cover;   /* scale and crop to fit ratio */
           display: block;
           border-radius: 6px;
